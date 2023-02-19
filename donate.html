@@ -136,7 +136,8 @@
                   aria-hidden="true"></i></a></li>
           </ul>
         </div>
-        <div class="aside-dropdown__item"><a class="button button--squared" href="#"><span>Donate</span></a></div>
+        <div class="aside-dropdown__item"><a class="button button--squared" href="donate.html"><span>Donate</span></a>
+        </div>
       </div>
     </div>
     <!-- aside dropdown end-->
@@ -181,7 +182,7 @@
 								</ul>
 							</li>
 						</ul> -->
-            <!-- lang select end--><a class="button button--squared" href="#"><span>Donate</span></a>
+            <!-- lang select end--><a class="button button--squared" href="donate.html"><span>Donate</span></a>
             <div class="dropdown-trigger d-block d-sm-none">
               <div class="dropdown-trigger__item"></div>
             </div>
@@ -208,38 +209,116 @@
 
         <br>
 
-        <!-- bootstrap form for donation information and select cause -->
-        <div class="contacts-wrapper">
-          <div class="container">
-            <div class="row">
-              <div class="col-xl-6">
-                <form class="form message-form" action="javascript:void(0);">
-                  <h6 class="form__title">Fill Form</h6><span class="form__text">* The following info is
-                    required</span>
-                  <div class="row">
-                    <div class="col-lg-6">
-                      <input class="form__field" type="text" name="first-name" placeholder="First Name *"
-                        required="required" />
+        <!-- details and paragraph -->
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <p>
+              <p>
+                Donate to Generous Hands Foundation and help us make a positive impact in the lives of those in need.
+                Your
+                generosity will give hope and support to individuals and communities that are facing difficult
+                circumstances,
+                and will help to build a brighter future for all.
+
+                <br> <br>
+
+                By making a donation, you will be helping to provide essential resources and services, such as food,
+                shelter,
+                medical care, education, and more. Your contribution will give someone the chance to break the cycle of
+                poverty, and will bring comfort and support to those who are struggling.
+              </p>
+              </p>
+            </div>
+          </div>
+
+          <br>
+
+          <!-- bootstrap form for donation information and select cause -->
+          <div class="contacts-wrapper">
+            <div class="container">
+              <div class="row">
+                <div class="col-xl-6">
+                  <form action="https://formspree.io/f/mjvdwyvv" method="POST" class="form message-form"
+                    action="javascript:void(0);">
+                    <h6 class="form__title">Complete the form below </h6><span class="form__text">* The following info
+                      is required</span>
+                    <div class="row">
+                      <div class="col-lg-6">
+                        <input class="form__field" type="text" name="first-name" placeholder="First Name *"
+                          required="required" />
+                      </div>
+                      <div class="col-lg-6">
+                        <input class="form__field" type="text" name="last-name" placeholder="Last Name *"
+                          required="required" />
+                      </div>
+                      <div class="col-lg-6">
+                        <input class="form__field" type="email" name="email" placeholder="Email *"
+                          required="required" />
+                      </div>
+                      <div class="col-lg-6">
+                        <input class="form__field" type="tel" name="phone-number" placeholder="Phone" />
+                      </div>
+                      <!-- full width input to select cause -->
+                      <div class="col-12">
+                        <select class="form__field" name="cause" required="required">
+                          <option value="" disabled selected>Select Cause</option>
+                          <option value="1">Ukraine War Effort</option>
+                          <option value="2">Earthquake in Turkey and Syria</option>
+                          <option value="3">Water Delivery in Africa</option>
+                          <option value="4">Health and Medicine Supply</option>
+                          <option value="5">Empowerment</option>
+                        </select>
+                      </div>
+                      <div class="col-12">
+                        <textarea class="form__message form__field" name="message" placeholder="Message"></textarea>
+                      </div>
+                      <div class="col-12">
+                        <button class="form__submit" type="submit">Send Message</button>
+                      </div>
                     </div>
-                    <div class="col-lg-6">
-                      <input class="form__field" type="text" name="last-name" placeholder="Last Name *"
-                        required="required" />
-                    </div>
-                    <div class="col-lg-6">
-                      <input class="form__field" type="email" name="email" placeholder="Email *" required="required" />
-                    </div>
-                    <div class="col-lg-6">
-                      <input class="form__field" type="tel" name="phone-number" placeholder="Phone" />
-                    </div>
-                    <div class="col-12">
-                      <textarea class="form__message form__field" name="message" placeholder="Message"></textarea>
-                    </div>
-                    <div class="col-12">
-                      <button class="form__submit" type="submit">Send Message</button>
-                    </div>
-                  </div>
-                </form>
+                  </form>
+                </div>
               </div>
+            </div>
+          </div>
+        </div>
+
+        <br>
+
+        <br>
+        <br>
+        <!-- addition details in filled card -->
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <h5>Donation Details</h5>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-12">
+
+              <p>
+                Need help with your donation? Please contact our Donor Services team at 1 (844) 349‑0188 Monday to
+                Friday, 8:30am – 9:00pm ET or email innfo@generoushandsfoundation.org.
+
+              </p>
+
+              <p>
+                Make a tax‑deductible gift with your Bitcoin or other cryptocurrency here.
+              </p>
+
+              <p>
+
+                Generous Hands Foundation is a registered 501(c)(3) non-profit organization. All donations are tax
+                deductible to the extent permitted by law. Your donation will help us to help others. Your generosity
+                will
+                give hope and support to individuals and communities that are facing difficult circumstances, and will
+                help
+                to build a brighter future for all. Thank you for your support!
+
+
+              </p>
             </div>
           </div>
         </div>
@@ -251,51 +330,50 @@
       <!-- footer start-->
     </main>
     <!-- footer start-->
-    <footer class=" footer">
+    <footer class="footer footer--front_2">
       <div class="container">
         <div class="row">
-          <div class="col-sm-6 col-lg-3">
-            <div class="footer-logo"><a class="footer-logo__link" href="index.html"><img class="footer-logo__img"
-                  src="img/logo_white.png" alt="logo" /></a></div>
+          <div class="col-sm-6 col-lg-4">
+            <div class="footer-logo">
+              <a class="footer-logo__link" href="index.html">
+                <!-- <img class="footer-logo__img" src="img/logo_white.png" alt="logo" /> -->
+                <h4>Generous Hands Foundation</h4>
+              </a>
+            </div>
+            <div class="footer-contacts">
+              <p class="footer-contacts__address">Washington, D.C. -USA</p>
+              <!-- <p class="footer-contacts__phone">Phone: <a href="tel:+31859644725">+31 85 964 47 25</a></p> -->
+              <p class="footer-contacts__mail">Email: <a
+                  href="mailto:support@Generous Hands.org">info@generoushandsfondation.org</a></p>
+            </div>
             <!-- footer socials start-->
             <ul class="footer-socials">
               <li class="footer-socials__item"><a class="footer-socials__link" href="#"><i class="fa fa-facebook"
                     aria-hidden="true"></i></a></li>
-              <li class="footer-socials__item"><a class="footer-socials__link" href="#"><i class="fa fa-twitter"
-                    aria-hidden="true"></i></a></li>
-              <li class="footer-socials__item"><a class="footer-socials__link" href="#"><i class="fa fa-google-plus"
-                    aria-hidden="true"></i></a></li>
-              <li class="footer-socials__item"><a class="footer-socials__link" href="#"><i class="fa fa-instagram"
-                    aria-hidden="true"></i></a></li>
+              <!-- <li class="footer-socials__item"><a class="footer-socials__link" href="#"><i class="fa fa-twitter"
+										aria-hidden="true"></i></a></li>
+							<li class="footer-socials__item"><a class="footer-socials__link" href="#"><i class="fa fa-google-plus"
+										aria-hidden="true"></i></a></li>
+							<li class="footer-socials__item"><a class="footer-socials__link" href="#"><i class="fa fa-instagram"
+										aria-hidden="true"></i></a></li> -->
             </ul>
             <!-- footer socials end-->
           </div>
-          <div class="col-sm-6 col-lg-3">
-            <h4 class="footer__title">Contacts</h4>
-            <div class="footer-contacts">
-              <p class="footer-contacts__address">Elliott Ave, Parkville VIC 3052, Melbourne Canada
-              </p>
-              <p class="footer-contacts__phone">Phone: <a href="tel:+31859644725">+31 85 964 47 25</a>
-              </p>
-              <p class="footer-contacts__mail">Email: <a href="mailto:support@Generous Hands.org">support@Generous
-                  Hands.org</a></p>
-            </div>
-          </div>
-          <div class="col-sm-6 col-lg-3">
-            <h4 class="footer__title">Menu & Links</h4>
+          <div class="col-sm-6 col-lg-4 col-xl-3 offset-xl-1">
+            <h6 class="footer__title">Menu & Links</h6>
             <!-- footer nav start-->
             <nav>
-              <ul class="footer-menu">
-                <li class="footer-menu__item"><a class="footer-menu__link" href="index.html">Home</a>
-                </li>
-                <li class="footer-menu__item"><a class="footer-menu__link" href="#">Blog</a></li>
-                <li class="footer-menu__item"><a class="footer-menu__link" href="about.html">About</a>
-                </li>
-                <li class="footer-menu__item"><a class="footer-menu__link" href="#">Contacts</a></li>
-                <li class="footer-menu__item"><a class="footer-menu__link" href="#">Pages</a></li>
-                <li class="footer-menu__item"><a class="footer-menu__link" href="#">Elements</a></li>
-                <li class="footer-menu__item"><a class="footer-menu__link" href="causes.html">Causes</a>
-                </li>
+              <!-- <ul class="footer-menu"> -->
+              <li class="footer-menu__item footer-menu__item--active"><a class="footer-menu__link"
+                  href="index.html">Home Page</a></li>
+              <!-- <li class="footer-menu__item"><a class="footer-menu__link" href="#">Blog & News</a></li> -->
+              <li class="footer-menu__item"><a class="footer-menu__link" href="about.html">About Us</a></li>
+              <li class="footer-menu__item"><a class="footer-menu__link" href="contacts.html">Contact Us</a></li>
+              <!-- <li class="footer-menu__item"><a class="footer-menu__link" href="#">Pages</a></li> -->
+              <!-- <li class="footer-menu__item"><a class="footer-menu__link" href="#">Elements</a></li> -->
+              <li class="footer-menu__item"><a class="footer-menu__link" href="causes.html">Causes</a></li>
+              <li class="footer-menu__item"><a class="footer-menu__link" href="volunteer.html">Volunteer</a></li>
+              <!-- <li class="footer-menu__item"><a class="footer-menu__link" href="#">Documentation</a></li> -->
               </ul>
             </nav>
             <!-- footer nav end-->
@@ -303,17 +381,16 @@
           <div class="col-sm-6 col-lg-3">
             <h4 class="footer__title">Donate</h4>
             <p>Help Us Change the Lives of Children in World</p><a class="button footer__button button--filled"
-              href="#">Donate</a>
+              href="donate.html">Donate</a>
           </div>
         </div>
         <div class="row align-items-baseline">
           <div class="col-md-6">
-            <p class="footer-copyright">© 2020 Generous Hands Foundation</p>
+            <p class="footer-copyright">© 2023 Generous Hands Foundation</p>
           </div>
           <div class="col-md-6">
-            <div class="footer-privacy"><a class="footer-privacy__link" href="#">Privacy
-                Policy</a><span class="footer-privacy__divider">|</span><a class="footer-privacy__link" href="#">Term
-                and Condition</a>
+            <div class="footer-privacy"><a class="footer-privacy__link" href="#">Privacy Policy</a><span
+                class="footer-privacy__divider">|</span><a class="footer-privacy__link" href="#">Term and Condition</a>
             </div>
           </div>
         </div>

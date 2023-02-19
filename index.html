@@ -40,6 +40,19 @@
 	</script>
 </head>
 
+<style>
+	.hero-image:after {
+		position: absolute;
+		height: 100%;
+		width: 100%;
+		background-color: rgba(0, 0, 0, .5);
+		top: 0;
+		left: 0;
+		display: block;
+		content: "";
+	}
+</style>
+
 <body>
 	<div class="page-wrapper">
 		<!-- aside dropdown start-->
@@ -49,66 +62,6 @@
 						<use xlink:href="#close"></use>
 					</svg></span>
 				<div class="aside-dropdown__item d-lg-none d-block">
-					<ul class="aside-menu">
-						<li class="aside-menu__item aside-menu__item--has-child aside-menu__item--active"><a
-								class="aside-menu__link" href="javascript:void(0);"><span>Home</span></a>
-							<!-- sub menu start-->
-							<ul class="aside-menu__sub-list">
-								<li><a href="index.html"><span>01 Home Color Style</span></a></li>
-								<li class="item--active"><a href="front_2.html"> <span>02 Home Color Style</span></a></li>
-								<li><a href="front_3.html"><span>03 Home Color Style</span></a></li>
-								<li><a href="mono/index.html"><span>04 Home Monochrome</span></a></li>
-								<li><a href="mono/front_2.html"><span>05 Home Monochrome</span></a></li>
-								<li><a href="mono/front_3.html"><span>06 Home Monochrome</span></a></li>
-							</ul>
-							<!-- sub menu end-->
-						</li>
-						<li class="aside-menu__item aside-menu__item--has-child"><a class="aside-menu__link"
-								href="javascript:void(0);"><span>Pages</span></a>
-							<!-- sub menu start-->
-							<ul class="aside-menu__sub-list">
-								<li><a href="about.html"><span>About</span></a></li>
-								<li><a href="typography.html"> <span>Typography</span></a></li>
-								<li><a href="donors.html"><span>Donors & Partners</span></a></li>
-								<li><a href="volunteer.html"><span>Become a Volunteer</span></a></li>
-								<li><a href="events.html"><span>Events</span></a></li>
-								<li><a href="event-details.html"><span>Event Details</span></a></li>
-								<li><a href="stories.html"><span>Stories</span></a></li>
-								<li><a href="story-details.html"><span>Story Details</span></a></li>
-								<li><a href="blog.html"><span>Blog</span></a></li>
-								<li><a href="blog-post.html"><span>Blog Post</span></a></li>
-								<li><a href="gallery.html"><span>Gallery</span></a></li>
-								<li><a href="pricing.html"><span>Pricing Plans</span></a></li>
-								<li><a href="faq.html"><span>FAQ</span></a></li>
-								<li><a href="404.html"><span>404 Page</span></a></li>
-							</ul>
-							<!-- sub menu end-->
-						</li>
-						<li class="aside-menu__item aside-menu__item--has-child"><a class="aside-menu__link"
-								href="javascript:void(0);"><span>Causes</span></a>
-							<!-- sub menu start-->
-							<ul class="aside-menu__sub-list">
-								<li><a href="causes.html"><span>Causes 1</span></a></li>
-								<li><a href="causes_2.html"> <span>Causes 2</span></a></li>
-								<li><a href="causes_3.html"><span>Causes 3</span></a></li>
-								<li><a href="cause-details.html"><span>Cause Details</span></a></li>
-							</ul>
-							<!-- sub menu end-->
-						</li>
-						<li class="aside-menu__item aside-menu__item--has-child"><a class="aside-menu__link"
-								href="javascript:void(0);"><span>Shop</span></a>
-							<!-- sub menu start-->
-							<ul class="aside-menu__sub-list">
-								<li><a href="shop.html"><span>Catalog Page</span></a></li>
-								<li><a href="shop-product.html"><span>Shop Product</span></a></li>
-								<li><a href="shop-cart.html"><span>Shop Cart</span></a></li>
-								<li><a href="shop-checkout.html"><span>Shop Checkout</span></a></li>
-								<li><a href="shop-account.html"><span>Shop Account</span></a></li>
-							</ul>
-							<!-- sub menu end-->
-						</li>
-						<li class="aside-menu__item"><a class="aside-menu__link" href="contacts.html"><span>Contacts</span></a></li>
-					</ul>
 				</div>
 				<div class="aside-dropdown__item">
 					<!-- aside menu start-->
@@ -120,19 +73,19 @@
 					</ul>
 					<!-- aside menu end-->
 					<div class="aside-inner"><span class="aside-inner__title">Email</span><a class="aside-inner__link"
-							href="mailto:support@Generous Hands.org">support@generoushands.org</a></div>
-					<div class="aside-inner"><span class="aside-inner__title">Phone numbers</span><a class="aside-inner__link"
+							href="mailto:info@generoushands.org">info@generoushands.org</a></div>
+					<!-- <div class="aside-inner"><span class="aside-inner__title">Phone numbers</span><a class="aside-inner__link"
 							href="tel:+180012345678">+ 1800 - 123 456 78</a><a class="aside-inner__link" href="tel:+18009756511">+
-							1800 - 975 65 11</a></div>
+							1800 - 975 65 11</a></div> -->
 					<ul class="aside-socials">
 						<li class="aside-socials__item"><a class="aside-socials__link" href="#"><i class="fa fa-instagram"
 									aria-hidden="true"></i></a></li>
-						<li class="aside-socials__item"><a class="aside-socials__link" href="#"><i class="fa fa-google-plus"
+						<!-- <li class="aside-socials__item"><a class="aside-socials__link" href="#"><i class="fa fa-google-plus"
 									aria-hidden="true"></i></a></li>
 						<li class="aside-socials__item"><a class="aside-socials__link aside-socials__link--active" href="#"><i
 									class="fa fa-twitter" aria-hidden="true"></i></a></li>
 						<li class="aside-socials__item"><a class="aside-socials__link" href="#"><i class="fa fa-facebook"
-									aria-hidden="true"></i></a></li>
+									aria-hidden="true"></i></a></li> -->
 					</ul>
 				</div>
 				<div class="aside-dropdown__item"><a class="button button--squared" href="#"><span>Donate</span></a></div>
@@ -147,12 +100,11 @@
 						<div class="dropdown-trigger d-none d-sm-block">
 							<div class="dropdown-trigger__item"></div>
 						</div>
-						<div class="header-logo"><a class="header-logo__link" href="index.html">
-								<!-- <img class="header-logo__img"
-									src="img/logo_dark.png" alt="logo" /> -->
+						<div class="header-logo">
+							<a class="header-logo__link" href="index.html" style="display: flex; padding: 10px 0;">
+								<img class="header-logo__img" src="img/logo_dark.png" alt="logo" />
 								<h4>Generous Hands</h4>
 							</a>
-
 						</div>
 					</div>
 					<div class="col-auto">
@@ -169,18 +121,7 @@
 						<!-- main menu end-->
 					</div>
 					<div class="col-auto d-flex align-items-center">
-						<!-- lang select start-->
-						<!-- <ul class="lang-select">
-							<li class="lang-select__item lang-select__item--active"><span>En</span>
-								<ul class="lang-select__sub-list">
-									<li><a href="#">French</a></li>
-									<li><a href="#">Spanish</a></li>
-									<li><a href="#">Deutsch</a></li>
-									<li><a href="#">Russian</a></li>
-								</ul>
-							</li>
-						</ul> -->
-						<!-- lang select end--><a class="button button--squared" href="#"><span>Donate</span></a>
+						<a class="button button--squared" href="donate.html"><span>Donate</span></a>
 						<div class="dropdown-trigger d-block d-sm-none">
 							<div class="dropdown-trigger__item"></div>
 						</div>
@@ -194,7 +135,7 @@
 			<section class="promo promo--front_2">
 				<div class="promo-slider">
 					<div class="promo-slider__item promo-slider__item--style-2">
-						<picture>
+						<picture class="hero-image">
 							<source
 								srcset="https://thenational-the-national-prod.cdn.arcpublishing.com/resizer/XfP5MS3mCg9-LBzWm3LiBAgeHMw=/1440x960/filters:format(jpg):quality(70)/cloudfront-eu-central-1.images.arcpublishing.com/thenational/5ZFMU463UZECJP2FLANV5K23KM.jpg"
 								media="(min-width: 835px)" />
@@ -214,9 +155,10 @@
 												</h2>
 											</div>
 											<div class="promo-slider__wrapper-2">
-												<p class="promo-slider__subtitle">Gray eel-catfish longnose whiptail catfish smalleye squaretail
-													queen danio unicorn fish shortnose greeneye fusilier fish silver carp nibbler sharksucker
-													tench lookdown catfish</p>
+												<p class="promo-slider__subtitle">Two powerful earthquakes struck Turkey and Syria on Feb. 6,
+													killing more than 36,000 people and injuring thousands more. The death toll is anticipated to
+													nearly double. As search and rescue efforts conclude, thousands of survivors urgently need
+													help. </p>
 											</div>
 											<div class="promo-slider__wrapper-3"><a class="button promo-slider__button button--primary"
 													href="turkey-syria.html">Learn More</a></div>
@@ -227,14 +169,14 @@
 						</div>
 					</div>
 					<div class="promo-slider__item promo-slider__item--style-1">
-						<picture>
+						<picture class="hero-image">
 							<!-- overlay image  -->
 							<source
 								srcset="https://static.euronews.com/articles/stories/07/29/77/68/773x435_cmsv2_1b886a57-d7e9-51b7-9d53-ffdb895228c3-7297768.jpg"
 								media="(min-width: 835px)" />
 							<source
 								srcset="https://static.euronews.com/articles/stories/07/29/77/68/773x435_cmsv2_1b886a57-d7e9-51b7-9d53-ffdb895228c3-7297768.jpg"
-								media="(min-width: 376px)" /><img class="img--bg"
+								media="(min-width: 376px)" /><img class="img--bg hero-image"
 								src="https://static.euronews.com/articles/stories/07/29/77/68/773x435_cmsv2_1b886a57-d7e9-51b7-9d53-ffdb895228c3-7297768.jpg"
 								style="filter: blur(5px); -webkit-filter: blur(5px);" alt="img" />
 						</picture>
@@ -249,7 +191,9 @@
 												</h2>
 											</div>
 											<div class="promo-slider__wrapper-2">
-												<p class="promo-slider__subtitle">Support the war effort in Ukraine</p>
+												<p class="promo-slider__subtitle">There’s no denying the fact that the conflict in eastern
+													Ukraine has left a lot of people affected. It’s estimated that over 1.5 million people have
+													lost their lives in the war, with over half of them being children below 18.</p>
 											</div>
 											<div class="promo-slider__wrapper-3"><a class="button promo-slider__button button--primary"
 													href="ukraine-war-support.html">Learn More</a></div>
@@ -260,10 +204,15 @@
 						</div>
 					</div>
 					<div class="promo-slider__item promo-slider__item--style-3">
-						<picture>
-							<source srcset="./img/ig_3.jpg" media="(min-width: 835px)" />
-							<source srcset="./img/834promo_3.jpg" media="(min-width: 376px)" /><img class="img--bg"
-								src="./img/375promo_3.jpg" alt="img" />
+						<picture class="hero-image">
+							<source
+								srcset="https://www.wfpusa.org/wp-content/uploads/2020/07/WF163997_WFP_Malawi_MAM_Bahaji_HR-17_Medium_res_comp.jpg"
+								media="(min-width: 835px)" />
+							<source
+								srcset="https://www.wfpusa.org/wp-content/uploads/2020/07/WF163997_WFP_Malawi_MAM_Bahaji_HR-17_Medium_res_comp.jpg"
+								media="(min-width: 376px)" /><img class="img--bg"
+								src="https://www.wfpusa.org/wp-content/uploads/2020/07/WF163997_WFP_Malawi_MAM_Bahaji_HR-17_Medium_res_comp.jpg"
+								alt="img" />
 						</picture>
 						<div class="container">
 							<div class="row">
@@ -275,12 +224,13 @@
 														world.</span></h2>
 											</div>
 											<div class="promo-slider__wrapper-2">
-												<p class="promo-slider__subtitle">Gray eel-catfish longnose whiptail catfish smalleye squaretail
-													queen danio unicorn fish shortnose greeneye fusilier fish silver carp nibbler sharksucker
-													tench lookdown catfish</p>
+												<p class="promo-slider__subtitle">Join the team of dedicated volunteers at Generous Hands
+													Foundation and make a positive impact in the lives of those in need. Your time, skills, and
+													passion can make a real difference, and will help to create a brighter future for individuals
+													and communities around the world.</p>
 											</div>
 											<div class="promo-slider__wrapper-3"><a class="button promo-slider__button button--primary"
-													href="#">Discover</a></div>
+													href="volunteer.html">Volunteer</a></div>
 										</div>
 									</div>
 								</div>
@@ -348,21 +298,21 @@
 										<div class="counter-item__top">
 											<h6 class="counter-item__title">Countries we'e visited</h6>
 										</div>
-										<div class="counter-item__lower"><span class="js-counter">65</span><span>+</span></div>
+										<div class="counter-item__lower"><span class="js-counter">32</span><span>+</span></div>
 									</div>
 								</div>
 								<div class="col-md-4 text-md-left text-center">
 									<div class="counter-item counter-item--style-3">
 										<div class="counter-item__top">
-											<h6 class="counter-item__title">Closed Projeccts</h6>
+											<h6 class="counter-item__title">Closed Projects</h6>
 										</div>
-										<div class="counter-item__lower"><span class="js-counter">100</span><span>+</span></div>
+										<div class="counter-item__lower"><span class="js-counter">80</span><span>+</span></div>
 									</div>
 								</div>
 							</div>
 						</div>
 						<div class="col-12 text-center"><a class="button button--primary d-inline-block d-xl-none margin-top"
-								href="#">More about</a></div>
+								href="about.html">More about</a></div>
 					</div>
 				</div>
 			</section>
@@ -443,7 +393,7 @@
 								lives of those in need. Your time, skills, and passion can make a real difference, and will help to
 								create a brighter future for individuals and communities around the world.
 							</p>
-							<a class="action-section__button button button--primary" href="#">Become a volounteer</a>
+							<a class="action-section__button button button--primary" href="volunteer.html">Become a volounteer</a>
 						</div>
 					</div>
 				</div>
@@ -463,7 +413,7 @@
 								community is unique, and that is why we tailor our approach to meet the specific needs of those we
 								serve. Whether it be through direct support, community programs, or advocacy and awareness campaigns, we
 								strive to make a real and lasting difference in the lives of those in need.
-							</p><a class="button button--primary d-none d-xl-inline-block" href="#">More Causes</a>
+								<!-- </p><a class="button button--primary d-none d-xl-inline-block" href="#">More Causes</a> -->
 						</div>
 					</div>
 					<div class="row offset-margin">
@@ -477,7 +427,7 @@
 										<div class="col-lg-8">
 											<div class="causes-item__action">
 												<div class="causes-item__badge" style="background-color: #49C2DF">Water Delivery</div><a
-													class="causes-item__link" href="#">Donate</a>
+													class="causes-item__link" href="donate.html">Donate</a>
 											</div>
 											<div class="causes-item__top">
 												<h6 class="causes-item__title"> <a href="cause-details.html">Clean Water in Africa</a></h6>
@@ -513,7 +463,7 @@
 										<div class="col-lg-8">
 											<div class="causes-item__action">
 												<div class="causes-item__badge" style="background-color: #F36F8F">Medicine</div><a
-													class="causes-item__link" href="#">Donate</a>
+													class="causes-item__link" href="donate.html">Donate</a>
 											</div>
 											<div class="causes-item__top">
 												<h6 class="causes-item__title"> <a href="cause-details.html">Health in other Countries</a></h6>
@@ -548,7 +498,7 @@
 										<div class="col-lg-8">
 											<div class="causes-item__action">
 												<div class="causes-item__badge" style="background-color: #2EC774">Education</div><a
-													class="causes-item__link" href="#">Donate</a>
+													class="causes-item__link" href="donate.html">Donate</a>
 											</div>
 											<div class="causes-item__top">
 												<h6 class="causes-item__title"> <a href="cause-details.html">We Build and Create</a></h6>
@@ -574,10 +524,10 @@
 							</div>
 						</div>
 					</div>
-					<div class="row">
+					<!-- <div class="row">
 						<div class="col-12 text-center"><a class="button button--primary d-inline-block d-xl-none margin-top"
 								href="#">More Causes</a></div>
-					</div>
+					</div> -->
 				</div>
 			</section>
 			<!-- causes end-->
@@ -692,7 +642,7 @@
 								<div class="counter-item__top">
 									<h6 class="counter-item__title">Closed Projects</h6>
 								</div>
-								<div class="counter-item__lower"><span class="js-counter">200</span><span>+</span></div>
+								<div class="counter-item__lower"><span class="js-counter">80</span><span>+</span></div>
 							</div>
 						</div>
 					</div>
@@ -713,7 +663,7 @@
 							<h3 class="text-section__title">Delivering help and hope <br />to children through sponsorship.</h3>
 							<p>No matter how you choose to give, your donation will be tax-deductible, and will be used to support our
 								mission and programs. To make your contribution today, simply visit our Donate page and follow the
-								instructions.</p><a class="button button--primary" href="#">More information</a>
+								instructions.</p><a class="button button--primary" href="donate.html">Donate</a>
 						</div>
 					</div>
 				</div>
@@ -736,7 +686,7 @@
 							<div class="event-item">
 								<div class="event-item__img"><img class="img--bg" src="img/event_1.jpg" alt="img" /></div>
 								<div class="event-item__content">
-									<h6 class="event-item__title"><a href="#">Help for Language. Voluanteer</a></h6>
+									<h6 class="event-item__title"><a href="#">Help for Language. Volunteer</a></h6>
 									<p><b>Dark Spurt,</b> San Francisco, CA 94528, USA</p>
 									<p><b>September 30 - October 31,</b> 2019</p>
 									<p><b>10:00 AM - 18:00 PM,</b> Everyday</p>
@@ -922,26 +872,25 @@
 						<h6 class="footer__title">Menu & Links</h6>
 						<!-- footer nav start-->
 						<nav>
-							<ul class="footer-menu">
-								<li class="footer-menu__item footer-menu__item--active"><a class="footer-menu__link"
-										href="index.html">Home Page</a></li>
-								<li class="footer-menu__item"><a class="footer-menu__link" href="#">Blog & News</a></li>
-								<li class="footer-menu__item"><a class="footer-menu__link" href="about.html">About Us</a></li>
-								<li class="footer-menu__item"><a class="footer-menu__link" href="#">Contact Us</a></li>
-								<li class="footer-menu__item"><a class="footer-menu__link" href="#">Pages</a></li>
-								<li class="footer-menu__item"><a class="footer-menu__link" href="#">Elements</a></li>
-								<li class="footer-menu__item"><a class="footer-menu__link" href="causes.html">Causes</a></li>
-								<li class="footer-menu__item"><a class="footer-menu__link" href="#">Documentation</a></li>
+							<!-- <ul class="footer-menu"> -->
+							<li class="footer-menu__item footer-menu__item--active"><a class="footer-menu__link"
+									href="index.html">Home Page</a></li>
+							<!-- <li class="footer-menu__item"><a class="footer-menu__link" href="#">Blog & News</a></li> -->
+							<li class="footer-menu__item"><a class="footer-menu__link" href="about.html">About Us</a></li>
+							<li class="footer-menu__item"><a class="footer-menu__link" href="contacts.html">Contact Us</a></li>
+							<!-- <li class="footer-menu__item"><a class="footer-menu__link" href="#">Pages</a></li> -->
+							<!-- <li class="footer-menu__item"><a class="footer-menu__link" href="#">Elements</a></li> -->
+							<li class="footer-menu__item"><a class="footer-menu__link" href="causes.html">Causes</a></li>
+							<li class="footer-menu__item"><a class="footer-menu__link" href="volunteer.html">Volunteer</a></li>
+							<!-- <li class="footer-menu__item"><a class="footer-menu__link" href="#">Documentation</a></li> -->
 							</ul>
 						</nav>
 						<!-- footer nav end-->
 					</div>
-					<div class="col-lg-4 col-xl-3 offset-xl-1">
-						<h6 class="footer__title">Newsletter</h6>
-						<div class="footer__form">
-							<input class="footer__form-input" type="email" placeholder="Enter your E-mail" />
-							<button class="footer__form-submit button button--primary" type="submit">Subscribe</button>
-						</div>
+					<div class="col-sm-6 col-lg-3">
+						<h4 class="footer__title">Donate</h4>
+						<p>Help Us Change the Lives of Children in World</p><a class="button footer__button button--filled"
+							href="donate.html">Donate</a>
 					</div>
 				</div>
 				<div class="row align-items-baseline">
@@ -950,7 +899,7 @@
 					</div>
 					<div class="col-md-6">
 						<div class="footer-privacy"><a class="footer-privacy__link" href="#">Privacy Policy</a><span
-								class="footer-privacy__divider">|</span><a class="footer-privacy__link" href="#">Term and Condision</a>
+								class="footer-privacy__divider">|</span><a class="footer-privacy__link" href="#">Term and Condition</a>
 						</div>
 					</div>
 				</div>
